@@ -35,7 +35,7 @@ const Footer = ({ onNavigate }) => {
       <div className="grid w-full grid-cols-1 items-center gap-y-6 md:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] md:items-end md:gap-x-5">
         <a href="#home" className="portfolio-brand flex items-center justify-self-center gap-2 md:justify-self-start" aria-label="Portfolio home">
           <img
-            src="/assets/qa-robot.webp"
+            src={`${import.meta.env.BASE_URL}assets/qa-robot.webp`}
             alt=""
             aria-hidden="true"
             className="qa-robot-float h-10 w-10 shrink-0 object-contain"
