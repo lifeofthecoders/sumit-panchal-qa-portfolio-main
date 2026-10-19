@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+
+  body {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+  }
+
+}
+
+/* Lightweight floating animation for the QA robot brand mark. */
+.qa-robot-float {
+  transform-origin: center;
+  animation: qaRobotFloat 2.8s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes qaRobotFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .qa-robot-float { animation: none; }
+}
+
+
+/* Edge-to-edge project banners: display the full artwork directly, without blurred side fills. */
+.project-details-overlay {
+  width: 100vw;
+  max-width: none;
+  left: 0;
+  right: 0;
+  overscroll-behavior: contain;
+}
+
+.project-banner-frame {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  line-height: 0;
+}
+
+.project-banner-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Every project workflow image fills its card without letterboxing. */
+.project-gallery-frame {
+  background: transparent;
+  isolation: isolate;
+}
+
+.project-gallery-image {
+  max-width: none;
+  object-position: center;
+}
