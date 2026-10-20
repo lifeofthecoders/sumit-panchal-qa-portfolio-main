@@ -22,7 +22,7 @@ const Footer = ({ onNavigate }) => {
     { icon: <VscHome size={24} />, label: "Home", onClick: () => goToSection("home") },
     { icon: <VscAccount size={24} />, label: "About", onClick: () => goToSection("about") },
     { icon: <VscTools size={24} />, label: "Tools", onClick: () => goToSection("tools") },
-    { icon: <VscArchive size={24} />, label: "Projects", onClick: () => goToSection("projects") },
+    { icon: <VscArchive size={24} />, label: "Projects", onClick: () => goToSection("project") },
   ];
 
   const socialLinkClass = "flex h-8 w-8 items-center justify-center rounded-full text-zinc-100 transition-colors hover:text-violet-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-violet-400";
