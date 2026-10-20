@@ -311,7 +311,7 @@ This portfolio is designed to demonstrate practical QA capabilities through:
 
 Explore the complete portfolio:
 
-**[🚀 Visit Sumit Panchal QA Portfolio](https://lifeofthecoders.github.io/sumit-panchal-qa-portfolio-main/)**
+🚀 **[ Visit Sumit Panchal QA Portfolio](https://lifeofthecoders.github.io/sumit-panchal-qa-portfolio-main/)**
 
 ---
 
@@ -319,7 +319,7 @@ Explore the complete portfolio:
 
 **GitHub Repository:**
 
-**[View Source Code](https://github.com/lifeofthecoders/sumit-panchal-qa-portfolio-main)**
+🐙 **[View Source Code](https://github.com/lifeofthecoders/sumit-panchal-qa-portfolio-main)**
 
 ---
 
