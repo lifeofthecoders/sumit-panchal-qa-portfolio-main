@@ -230,7 +230,10 @@ function App() {
         <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1" id="home">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
-              <img src="./assets/Sumit_Panchal1.png" className="w-10 rounded-md" />
+              <img
+                src={`${import.meta.env.BASE_URL}assets/Sumit_Panchal1.png`}
+                className="w-10 rounded-md"
+              />
               <q>Driving Software Quality Through Thorough Testing, Precision, and a User-First Mindset.</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
@@ -250,7 +253,7 @@ function App() {
             />
             <div className="flex items-center sm:gap-4 gap-2">
               <a
-                href="/assets/Sumit_Panchal_QA_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}assets/Sumit_Panchal_QA_Resume.pdf`}
                 download="Sumit_Panchal_QA_Resume.pdf"
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
@@ -270,7 +273,7 @@ function App() {
               handle="sumitpanchal"
               status="Online"
               contactText="Let's Connect"
-              avatarUrl="/assets/Sumit_Panchal1.png"
+              avatarUrl={`${import.meta.env.BASE_URL}assets/Sumit_Panchal1.png`}
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
@@ -444,13 +447,12 @@ function App() {
               >
                 {contactStatus.type !== "idle" && (
                   <div
-                    className={`mb-6 rounded-xl border p-4 ${
-                      contactStatus.type === "success"
+                    className={`mb-6 rounded-xl border p-4 ${contactStatus.type === "success"
                         ? "border-emerald-500/50 bg-emerald-500/10 text-emerald-200"
                         : contactStatus.type === "error"
                           ? "border-rose-500/50 bg-rose-500/10 text-rose-200"
                           : "border-cyan-500/40 bg-cyan-500/10 text-cyan-100"
-                    }`}
+                      }`}
                     role={contactStatus.type === "error" ? "alert" : "status"}
                     aria-live="polite"
                   >

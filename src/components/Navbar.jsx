@@ -19,7 +19,7 @@ const Navbar = ({ hidden = false }) => {
       <div className="logo">
         <a href="#home" className="portfolio-brand flex items-center gap-2 p-1" aria-label="Portfolio home">
           <img
-            src="/assets/qa-robot.webp"
+            src={`${import.meta.env.BASE_URL}assets/qa-robot.webp`}
             alt=""
             aria-hidden="true"
             className="qa-robot-float h-10 w-10 shrink-0 object-contain"
