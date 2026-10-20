@@ -19,7 +19,7 @@ const Navbar = ({ hidden = false }) => {
       <div className="logo">
         <a href="#home" className="portfolio-brand flex items-center gap-2 p-1" aria-label="Portfolio home">
           <img
-            src={`${import.meta.env.BASE_URL}assets/qa-robot.webp`}
+            src="/assets/qa-robot.webp"
             alt=""
             aria-hidden="true"
             className="qa-robot-float h-10 w-10 shrink-0 object-contain"
@@ -42,7 +42,8 @@ const Navbar = ({ hidden = false }) => {
       >
         <li><a href="#home" className="sm:text-lg text-base font-medium">Home</a></li>
         <li><a href="#about" className="sm:text-lg text-base font-medium">About</a></li>
-        <li><a href="#project" className="sm:text-lg text-base font-medium">Project</a></li>
+        <li><a href="#tools" className="sm:text-lg text-base font-medium">Tools</a></li>
+        <li><a href="#projects" className="sm:text-lg text-base font-medium">Projects</a></li>
         <li><a href="#contact" className="sm:text-lg text-base font-medium">Contact</a></li>
       </ul>
     </nav>

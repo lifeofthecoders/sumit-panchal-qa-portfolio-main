@@ -20,9 +20,9 @@ const Footer = ({ onNavigate }) => {
 
   const items = [
     { icon: <VscHome size={24} />, label: "Home", onClick: () => goToSection("home") },
-    { icon: <VscAccount size={24} />, label: "About Me", onClick: () => goToSection("about") },
+    { icon: <VscAccount size={24} />, label: "About", onClick: () => goToSection("about") },
     { icon: <VscTools size={24} />, label: "Tools", onClick: () => goToSection("tools") },
-    { icon: <VscArchive size={24} />, label: "Projects", onClick: () => goToSection("project") },
+    { icon: <VscArchive size={24} />, label: "Projects", onClick: () => goToSection("projects") },
   ];
 
   const socialLinkClass = "flex h-8 w-8 items-center justify-center rounded-full text-zinc-100 transition-colors hover:text-violet-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-violet-400";
@@ -35,7 +35,7 @@ const Footer = ({ onNavigate }) => {
       <div className="grid w-full grid-cols-1 items-center gap-y-6 md:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] md:items-end md:gap-x-5">
         <a href="#home" className="portfolio-brand flex items-center justify-self-center gap-2 md:justify-self-start" aria-label="Portfolio home">
           <img
-            src={`${import.meta.env.BASE_URL}assets/qa-robot.webp`}
+            src="/assets/qa-robot.webp"
             alt=""
             aria-hidden="true"
             className="qa-robot-float h-10 w-10 shrink-0 object-contain"

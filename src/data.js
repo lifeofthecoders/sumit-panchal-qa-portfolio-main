@@ -1,4 +1,4 @@
-const HeroImage = `${import.meta.env.BASE_URL}assets/hero-img.webp`;
+import HeroImage from "/assets/hero-img.webp";
 
 const Image = {
   HeroImage,
@@ -6,26 +6,26 @@ const Image = {
 
 export default Image;
 
-const Tools1 = `${import.meta.env.BASE_URL}assets/tools/jira.png`;
-const Tools2 = `${import.meta.env.BASE_URL}assets/tools/selenium.png`;
-const Tools3 = `${import.meta.env.BASE_URL}assets/tools/burpsuite.png`;
-const Tools4 = `${import.meta.env.BASE_URL}assets/tools/jmeter.png`;
-const Tools5 = `${import.meta.env.BASE_URL}assets/tools/postman.png`;
-const Tools6 = `${import.meta.env.BASE_URL}assets/tools/testrail.png`;
-const Tools7 = `${import.meta.env.BASE_URL}assets/tools/vscode.png`;
-const Tools8 = `${import.meta.env.BASE_URL}assets/tools/reactjs.png`;
-const Tools9 = `${import.meta.env.BASE_URL}assets/tools/nextjs.png`;
-const Tools10 = `${import.meta.env.BASE_URL}assets/tools/tailwind.png`;
-const Tools11 = `${import.meta.env.BASE_URL}assets/tools/bootstrap.png`;
-const Tools12 = `${import.meta.env.BASE_URL}assets/tools/js.png`;
-const Tools13 = `${import.meta.env.BASE_URL}assets/tools/nodejs.png`;
-const Tools14 = `${import.meta.env.BASE_URL}assets/tools/github.png`;
-const Tools15 = `${import.meta.env.BASE_URL}assets/tools/canva.png`;
-const Tools16 = `${import.meta.env.BASE_URL}assets/tools/figma.png`;
-const Tools17 = `${import.meta.env.BASE_URL}assets/tools/firebase.png`;
-const Tools18 = `${import.meta.env.BASE_URL}assets/tools/html.png`;
-const Tools19 = `${import.meta.env.BASE_URL}assets/tools/css.png`;
-const Tools20 = `${import.meta.env.BASE_URL}assets/tools/ts.png`;
+import Tools1 from "/assets/tools/jira.png";
+import Tools2 from "/assets/tools/selenium.png";
+import Tools3 from "/assets/tools/burpsuite.png";
+import Tools4 from "/assets/tools/jmeter.png";
+import Tools5 from "/assets/tools/postman.png";
+import Tools6 from "/assets/tools/testrail.png";
+import Tools7 from "/assets/tools/vscode.png";
+import Tools8 from "/assets/tools/reactjs.png";
+import Tools9 from "/assets/tools/nextjs.png";
+import Tools10 from "/assets/tools/tailwind.png";
+import Tools11 from "/assets/tools/bootstrap.png";
+import Tools12 from "/assets/tools/js.png";
+import Tools13 from "/assets/tools/nodejs.png";
+import Tools14 from "/assets/tools/github.png";
+import Tools15 from "/assets/tools/canva.png";
+import Tools16 from "/assets/tools/figma.png";
+import Tools17 from "/assets/tools/firebase.png";
+import Tools18 from "/assets/tools/html.png";
+import Tools19 from "/assets/tools/css.png";
+import Tools20 from "/assets/tools/ts.png";
 
 export const listTools = [
   {
@@ -173,12 +173,12 @@ export const listTools = [
 export const listProjects = [
   {
     id: 1,
-    image: `${import.meta.env.BASE_URL}assets/project/project-lymuv-qa.jpg`,
-    bannerImage: `${import.meta.env.BASE_URL}assets/project/project-lymuv-banner.jpg`,
+    image: "/assets/project/project-lymuv-qa.jpg",
+    bannerImage: "/assets/project/project-lymuv-banner.jpg",
     detailImages: [
-      { src: `${import.meta.env.BASE_URL}assets/project/project-lymuv-detail-1.jpg`, alt: "Choose Pickup & Route", caption: "Pickup/destination selection and ride options" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-lymuv-detail-2.jpg`, alt: "Live Trip & Payment", caption: "Live tracking, driver details and payment summary" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-lymuv-qa-gallery.jpg`, alt: "Full project overview image", caption: "Project overview banner: ride booking and trip-management platform" }
+      { src: "/assets/project/project-lymuv-detail-1.jpg", alt: "Choose Pickup & Route", caption: "Pickup/destination selection and ride options" },
+      { src: "/assets/project/project-lymuv-detail-2.jpg", alt: "Live Trip & Payment", caption: "Live tracking, driver details and payment summary" },
+      { src: "/assets/project/project-lymuv-qa-gallery.jpg", alt: "Full project overview image", caption: "Project overview banner: ride booking and trip-management platform" }
     ],
     title: "LYMÜV - Taxi Booking Application",
     subtitle: "Project Management · Ride booking, driver assignment, payments & admin workflows",
@@ -214,12 +214,12 @@ export const listProjects = [
   },
   {
     id: 2,
-    image: `${import.meta.env.BASE_URL}assets/project/project-dap-me-qa.jpg`,
-    bannerImage: `${import.meta.env.BASE_URL}assets/project/project-dap-me-banner.jpg`,
+    image: "/assets/project/project-dap-me-qa.jpg",
+    bannerImage: "/assets/project/project-dap-me-banner.jpg",
     detailImages: [
-      { src: `${import.meta.env.BASE_URL}assets/project/project-dap-me-detail-1.jpg`, alt: "Dap Me mobile discovery and saved filters screens", caption: "Mobile professional discovery, location-based search and saved filters" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-dap-me-detail-2.jpg`, alt: "Dap Me mobile profile, messages and connection requests screens", caption: "Mobile professional profiles, real-time messaging and connection requests" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-dap-me-qa-gallery.jpg`, alt: "Full project overview image", caption: "Project overview banner: mobile professional discovery and networking app" }
+      { src: "/assets/project/project-dap-me-detail-1.jpg", alt: "Dap Me mobile discovery and saved filters screens", caption: "Mobile professional discovery, location-based search and saved filters" },
+      { src: "/assets/project/project-dap-me-detail-2.jpg", alt: "Dap Me mobile profile, messages and connection requests screens", caption: "Mobile professional profiles, real-time messaging and connection requests" },
+      { src: "/assets/project/project-dap-me-qa-gallery.jpg", alt: "Full project overview image", caption: "Project overview banner: mobile professional discovery and networking app" }
     ],
     title: "Dap Me - Professional Networking Application",
     subtitle: "Project Management · Authentication, profiles, networking, chat & moderation",
@@ -258,12 +258,12 @@ export const listProjects = [
   },
   {
     id: 3,
-    image: `${import.meta.env.BASE_URL}assets/project/project-kinzwin-qa.jpg`,
-    bannerImage: `${import.meta.env.BASE_URL}assets/project/project-kinzwin-banner.jpg`,
+    image: "/assets/project/project-kinzwin-qa.jpg",
+    bannerImage: "/assets/project/project-kinzwin-banner.jpg",
     detailImages: [
-      { src: `${import.meta.env.BASE_URL}assets/project/project-kinzwin-detail-1.jpg`, alt: "Live Multiplayer Room", caption: "Live game board, player status and turn flow" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-kinzwin-detail-2.jpg`, alt: "Results & Fair Play", caption: "Tournament leaderboard, results and fair-play checks" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-kinzwin-qa-gallery.jpg`, alt: "Full project overview image", caption: "Project overview banner: multiplayer gaming and tournaments app" }
+      { src: "/assets/project/project-kinzwin-detail-1.jpg", alt: "Live Multiplayer Room", caption: "Live game board, player status and turn flow" },
+      { src: "/assets/project/project-kinzwin-detail-2.jpg", alt: "Results & Fair Play", caption: "Tournament leaderboard, results and fair-play checks" },
+      { src: "/assets/project/project-kinzwin-qa-gallery.jpg", alt: "Full project overview image", caption: "Project overview banner: multiplayer gaming and tournaments app" }
     ],
     title: "Kinzwin - Multiplayer Gaming Platform",
     subtitle: "Manual QA · Gameplay, multiplayer sync, chat & leaderboards",
@@ -301,12 +301,12 @@ export const listProjects = [
   },
   {
     id: 4,
-    image: `${import.meta.env.BASE_URL}assets/project/project-bunny-books-qa.jpg`,
-    bannerImage: `${import.meta.env.BASE_URL}assets/project/project-bunny-books-banner.jpg`,
+    image: "/assets/project/project-bunny-books-qa.jpg",
+    bannerImage: "/assets/project/project-bunny-books-banner.jpg",
     detailImages: [
-      { src: `${import.meta.env.BASE_URL}assets/project/project-bunny-books-detail-1.jpg`, alt: "Photo Book Studio", caption: "Photo upload, page layouts and album preview" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-bunny-books-detail-2.jpg`, alt: "Checkout & Tracking", caption: "Secure checkout and order delivery status" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-bunny-books-qa-gallery.jpg`, alt: "Full project overview image", caption: "Project overview banner: mobile photo-book creation and ordering app" }
+      { src: "/assets/project/project-bunny-books-detail-1.jpg", alt: "Photo Book Studio", caption: "Photo upload, page layouts and album preview" },
+      { src: "/assets/project/project-bunny-books-detail-2.jpg", alt: "Checkout & Tracking", caption: "Secure checkout and order delivery status" },
+      { src: "/assets/project/project-bunny-books-qa-gallery.jpg", alt: "Full project overview image", caption: "Project overview banner: mobile photo-book creation and ordering app" }
     ],
     title: "Bunny Books - Photo Book E-Commerce Application",
     subtitle: "Project Management · Photo uploads, album creation, checkout & order tracking",
@@ -345,12 +345,12 @@ export const listProjects = [
   },
   {
     id: 5,
-    image: `${import.meta.env.BASE_URL}assets/project/project-health-e-qa.jpg`,
-    bannerImage: `${import.meta.env.BASE_URL}assets/project/project-health-e-banner.jpg`,
+    image: "/assets/project/project-health-e-qa.jpg",
+    bannerImage: "/assets/project/project-health-e-banner.jpg",
     detailImages: [
-      { src: `${import.meta.env.BASE_URL}assets/project/project-health-e-detail-1.jpg`, alt: "Health Records & Emergency", caption: "Medical reports, health records and emergency information" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-health-e-detail-2.jpg`, alt: "Appointments & ABHA", caption: "Appointments, ABHA Health ID and medication reminders" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-health-e-qa-gallery.jpg`, alt: "Full project overview image", caption: "Project overview banner: mobile digital health records and appointments app" }
+      { src: "/assets/project/project-health-e-detail-1.jpg", alt: "Health Records & Emergency", caption: "Medical reports, health records and emergency information" },
+      { src: "/assets/project/project-health-e-detail-2.jpg", alt: "Appointments & ABHA", caption: "Appointments, ABHA Health ID and medication reminders" },
+      { src: "/assets/project/project-health-e-qa-gallery.jpg", alt: "Full project overview image", caption: "Project overview banner: mobile digital health records and appointments app" }
     ],
     title: "Health-E - Digital Health & Medical Records App",
     subtitle: "Manual QA · Health records, ABHA ID, appointments & family care",
@@ -395,12 +395,12 @@ export const listProjects = [
   },
   {
     id: 6,
-    image: `${import.meta.env.BASE_URL}assets/project/project-regive-qa.jpg`,
-    bannerImage: `${import.meta.env.BASE_URL}assets/project/project-regive-banner.jpg`,
+    image: "/assets/project/project-regive-qa.jpg",
+    bannerImage: "/assets/project/project-regive-banner.jpg",
     detailImages: [
-      { src: `${import.meta.env.BASE_URL}assets/project/project-regive-detail-1.jpg`, alt: "Post and Request an Article", caption: "Post item photos and details, set pickup slots, then review and request a listed article" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-regive-detail-2.jpg`, alt: "Promise, Handover, Pickup and Rating", caption: "Track promise acceptance, prepare handover, confirm pickup, conclude the transaction and submit ratings" },
-      { src: `${import.meta.env.BASE_URL}assets/project/project-regive-qa-gallery.jpg`, alt: "Full project overview image", caption: "Project overview banner: mobile community gifting and handover app" }
+      { src: "/assets/project/project-regive-detail-1.jpg", alt: "Post and Request an Article", caption: "Post item photos and details, set pickup slots, then review and request a listed article" },
+      { src: "/assets/project/project-regive-detail-2.jpg", alt: "Promise, Handover, Pickup and Rating", caption: "Track promise acceptance, prepare handover, confirm pickup, conclude the transaction and submit ratings" },
+      { src: "/assets/project/project-regive-qa-gallery.jpg", alt: "Full project overview image", caption: "Project overview banner: mobile community gifting and handover app" }
     ],
     title: "reGive - Community Sharing & Gift Transaction Application",
     subtitle: "Manual QA · Posting, requests, promises, handover, pickup & ratings",
