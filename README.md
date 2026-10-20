@@ -1,4 +1,4 @@
-# 🧪 Sumit Panchal — QA Portfolio
+# 🧪 Sumit Panchal - QA Portfolio
 
 ### Quality Analyst • Manual QA • Software Testing • Quality Engineering
 
